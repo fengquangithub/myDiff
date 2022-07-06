@@ -1,0 +1,16 @@
+{
+  "name": "mydiff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup src/index.js --format esm --file build/diff.js",
+    "examples": "serve ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^2.75.7",
+    "serve": "^13.0.2"
+  }
+}
